@@ -14,6 +14,7 @@ public class TDDSong {
             "I don't know why she swallowed a animal1 - perhaps she'll die!\n";
 
     private static String estrofa3 =
+            "\n" +
             "There was an old lady who swallowed a animal3;\n" +
             "How absurd to swallow a animal3.\n" +
             "She swallowed the animal3 to catch the animal2,\n" +
