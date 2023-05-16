@@ -23,15 +23,16 @@ public class TDDSong {
                     "\n";
 
     public static String filtroParrafos(ArrayList<String> animales) {
+
         if (animales.size() == 1) {
             resultado = estrofa1;
             resultado = resultado.replaceAll("animal1", animales.get(0));
         }if (animales.size() == 2) {
-            resultado += estrofa2;
+            resultado = estrofa1 + estrofa2;
             resultado = resultado.replaceAll("animal1", animales.get(0));
             resultado = resultado.replaceAll("animal2", animales.get(1));
         }if (animales.size() == 3) {
-            resultado += estrofa3;
+            resultado = estrofa1 + estrofa2 + estrofa3;
             resultado = resultado.replaceAll("animal1", animales.get(0));
             resultado = resultado.replaceAll("animal2", animales.get(1));
             resultado = resultado.replaceAll("animal3", animales.get(2));
